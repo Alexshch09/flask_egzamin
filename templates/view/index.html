@@ -1,0 +1,10 @@
+{% include './blocks/header.html' %}
+<main>
+    <center>
+        <h1>Home Page:</h1><br><br>
+        <a href="{{ url_for('views.index') }}">Главная</a><br>
+        <a href="{{ url_for('views.about') }}">О нас</a><br><br>
+        <a href="{{ url_for('views.privacy') }}">Политика Конфедициальности</a><br><br>
+    </center>
+</main>
+{% include './blocks/footer.html' %}
